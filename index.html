@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Slam Book 💌</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Architects+Daughter&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="room">
+
+  <!-- floating background doodles -->
+  <div class="doodles" aria-hidden="true">
+    <span class="doodle d1">✦</span>
+    <span class="doodle d2">♥</span>
+    <span class="doodle d3">✎</span>
+    <span class="doodle d4">☆</span>
+    <span class="doodle d5">✦</span>
+    <span class="doodle d6">♥</span>
+  </div>
+
+  <h1 class="room-title">tap the page to flip it, guys 👉</h1>
+
+  <div class="book" id="book">
+
+    <!-- PAGE 0 — COVER -->
+    <section class="page cover" data-page="0">
+      <div class="cover-inner">
+        <div class="washi washi-tl"></div>
+        <div class="washi washi-br"></div>
+        <p class="eyebrow">est. this friendship day</p>
+        <h2 class="cover-title">Our<br>Memories</h2>
+        <div class="cover-photo">
+          <img src="images/sample.jpg" alt="Gang cover photo">
+          <span class="pin"></span>
+        </div>
+        <p class="cover-sub">the unofficial, un-edited, slightly chaotic record of us<br>By Prachi</p>
+        <p class="tap-hint">tap anywhere to open ✨</p>
+      </div>
+    </section>
+
+    <!-- PAGE 1 — COLLAGE / CONTENTS -->
+    <section class="page" data-page="1">
+      <div class="page-inner theme-rose">
+        <p class="page-eyebrow">page one</p>
+        <h2 class="page-title">the gang, in polaroids</h2>
+
+        <div class="collage">
+          <figure class="polaroid p1"><img src="images/sample1.jpg" alt="Gang photo 1"><figcaption>us. always loud.</figcaption></figure>
+          <figure class="polaroid p2"><img src="images/sample2.jpg" alt="Gang photo 2"><figcaption>that one trip</figcaption></figure>
+          <figure class="polaroid p3"><img src="images/sample3.jpg" alt="Gang photo 3"><figcaption>3am snack run</figcaption></figure>
+          <figure class="polaroid p4"><img src="images/sample4.jpg" alt="Gang photo 4"><figcaption>lol this photo</figcaption></figure>
+          <figure class="polaroid p5"><img src="images/sample5.jpg" alt="Gang photo 5"><figcaption>squad, forever</figcaption></figure>
+        </div>
+        <span class="tape tape-a"></span>
+        <span class="tape tape-b"></span>
+      </div>
+    </section>
+
+  
+
+    <!-- PAGE 4 — MORE COLLAGE -->
+    <section class="page" data-page="4">
+      <div class="page-inner theme-blue">
+        <p class="page-eyebrow">page four</p>
+        <h2 class="page-title">moments we keep replaying</h2>
+        <div class="collage collage-b">
+          <figure class="polaroid p1"><img src="images/sample6.jpg" alt="Gang photo 6"><figcaption>best day ever</figcaption></figure>
+          <figure class="polaroid p2"><img src="images/sample7.jpg" alt="Gang photo 7"><figcaption>can't stop laughing</figcaption></figure>
+          <figure class="polaroid p3"><img src="images/sample8.jpg" alt="Gang photo 8"><figcaption>rainy day chaos</figcaption></figure>
+          <figure class="polaroid p4"><img src="images/sample9.jpg" alt="Gang photo 9"><figcaption>us, unfiltered</figcaption></figure>
+        </div>
+        <span class="tape tape-a"></span>
+      </div>
+    </section>
+
+    <!-- PAGE 5 — CLOSING NOTE -->
+    <section class="page back-cover" data-page="5">
+      <div class="page-inner theme-maroon">
+        <p class="page-eyebrow">the last page</p>
+        <h2 class="page-title closing-title">happy friendship day, my friends</h2>
+        <p class="closing-note">
+          however far we scatter, this book stays proof —<br>
+          we were loud, we were ridiculous, we were family.<br>
+          here's to every memory still waiting to happen.
+        </p>
+        <p>oiii mere dost<br>
+          double ande k toast<br>
+          love u the most!!<br>
+        </p>
+        <div class="signatures">
+          <span class="sign-line"></span>
+          <span class="sign-line"></span>
+          <span class="sign-line"></span>
+        </div>
+        <p class="signed-off">— from PRACHI</p>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="controls">
+    <button class="nav-btn" id="prevBtn" aria-label="Previous page">‹</button>
+    <div class="dots" id="dots"></div>
+    <button class="nav-btn" id="nextBtn" aria-label="Next page">›</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
